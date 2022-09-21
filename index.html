@@ -1,0 +1,36 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpg">
+<center>
+  <h2 class="btn-grad heading">AI Video Surveillance</h2>
+  <br>
+  <button onclick="start();" class="btn btn-success">Start</button>
+  <br>
+  <h2 class = "btn btn-info" id = "num_of_objects"></h2>
+  <br>
+  <h2 class = "btn btn-danger" id = "status"></h2>
+</center>
+<marquee id = 'note' onmouseover="this.stop()" onmouseout="this.start()">⌛ Please be patient video is being loaded ⌛ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ⏳ Please be patient video is being loaded ⏳</marquee>
+<div id = "copy_right_footer">
+  Developed By - Sean Lin
+</div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
