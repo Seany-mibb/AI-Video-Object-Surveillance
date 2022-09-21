@@ -4,7 +4,7 @@ var objects = [];
 
 function preload()
 {
-    video = createVideo('RoadToFuture.mp4');
+    video = createVideo('cat.mp4');
     video.hide();
 }
 
